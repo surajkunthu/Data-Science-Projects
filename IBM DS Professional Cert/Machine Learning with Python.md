@@ -1,5 +1,5 @@
 # Machine Learning with Python
-## Week 1
+## Week 1: Intro to Machine Learning
 
 What is Machine Learning?
 
@@ -8,7 +8,7 @@ What is Machine Learning?
 
 <br>
 
-## **Major Machine Learning Techniques**
+### **Major Machine Learning Techniques**
 1. Regression
     - Predicting continuous values
 
@@ -58,7 +58,7 @@ What is Machine Learning?
 | etc... | etc... | |
 
 
-## Python Libraries for Machine Learning
+### Python Libraries for Machine Learning
 
 **Numpy**: arrays, dictionaries, functions, datatypes, images.
 
@@ -72,21 +72,21 @@ What is Machine Learning?
 - classification, regression, clustering algorithms
 - most steps are already complete in scikit-learn
 
-## Supervised Learning
+### Supervised Learning
 "Teach the model"
 Controlled environment
 
 
-### Two types
+#### Two types
 *Classification*: process of predicting class labels/categories.
 
 *Regression*: proces of preducting continuous values.
 
-## Unsupervised Learning
+### Unsupervised Learning
 Model works on its own to discover information
 Less controlled environment
 
-### Techniques:
+####  Techniques:
   - Dimension Reduction
   - Density Equation
   - Market Basket Analysis
@@ -95,4 +95,16 @@ Less controlled environment
     - summarization
     - anamoly detection
     
- ## Week 2
+ ## Week 2: Linear Regression
+ 
+### What is Regression
+Process of predicting a continuous value
+
+Two Variables: Dependent (y) and independent (x) variables 
+
+$ y = f(x) $
+
+$ \hat{y} = \theta_0 +\theta_1x_1 $
+
+
+MAE = $ \sum^n_{j = 1} |y_j - \hat{y}_j|  $ 
